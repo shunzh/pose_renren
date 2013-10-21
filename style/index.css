@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+#background {
+	width: 800px;
+	height: 600px;
+	background-image:url(../img/bg2.gif);
+	background-repeat:repeat;
+}
+
+#poster {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 700px;
+	height: 500px;
+	background-image:url(../img/index_bg.png);
+}

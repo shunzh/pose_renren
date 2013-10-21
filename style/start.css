@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	margin-top: 20px;
+}
+
+#loading {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:800px;
+	height:700px;
+	background-image:url(../img/loading_bg.png);
+	background-repeat:repeat;
+}
+
+#loading_icon {
+	position: absolute;
+	top: 250px;
+	left: 300px;
+	width: 124px;
+	height: 124px;
+	background-image:url(../img/loading.gif);
+}
+
+#demo {
+	width: 400px;
+	height: 450px;
+	float: left;
+	background-image: url(../img/demo.png);
+	background-repeat: no-repeat;
+}
+
+#intro {
+	line-height: 30px;
+	width: 200px;
+	height: 200px;
+	padding: 80px;
+	background-image:url(../img/start_bg.png);
+	background-repeat:no-repeat;
+	float: right;
+}
+
+#nav div.right {
+	background-image:url(../img/button/start_f.png);
+}
+
+#nav div.right:hover {
+	background-image:url(../img/button/start_f_on.png);
+}

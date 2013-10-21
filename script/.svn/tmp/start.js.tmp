@@ -1,0 +1,13 @@
+// JavaScript Document
+// get seesion_key and store it in cookie
+var session_key = getValueFromLocation('session_key');
+
+function rightClicked() {
+	if (session_key == '') {
+		// if fail to get this, show error, refuse to direct
+		alert('session_key error. Please Reload.');
+	}
+	else {
+		window.location = "canvas.html?session_key="+session_key;
+	}
+}

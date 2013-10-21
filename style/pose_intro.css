@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+#message {
+	width: 400px;
+	margin: 5px auto;
+	background-image:url(../img/intro_bg.png);
+	padding: 20px 50px;
+	line-height: 30px;
+}
+
+#demo {
+	width: 400px;
+	height: 200px;
+	margin: 2px auto;
+	background-image:url(../img/pose_intro_guide.png);
+}
+
+#nav div.left {
+	background-image:url(../img/button/pose_intro_b.png);
+}
+
+#nav div.left:hover {
+	background-image:url(../img/button/pose_intro_b_on.png);
+}
+
+#nav div.right {
+	background-image:url(../img/button/pose_intro_f.png);
+}
+
+#nav div.right:hover {
+	background-image:url(../img/button/pose_intro_f_on.png);
+}

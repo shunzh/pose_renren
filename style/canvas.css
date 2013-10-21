@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sidebar {
+	width: 130px;
+	float: left;
+}
+
+#control {
+	height: 30px;	
+}
+
+#toolbox-name {
+	width: 65px;
+	height: 20px;
+	text-align: center;
+	padding: 0 10px;
+	margin-top: 15px;
+	background-color: #aaf;
+}
+
+#toolbox {
+	width: 65px;
+	height: 290px;
+	padding: 0 10px;
+	background-color: #eef;
+}
+
+#drawing {
+	width: 500px;
+	height: 400px;
+	float: left;
+}
+
+#choice {
+	width: 100px;
+	height: 300px;
+	float: left;
+}
+
+#choice div.choice-item {
+	height: 50px;
+}
+
+#nav div.left {
+	background-image:url(../img/button/canvas_b.png);
+}
+
+#nav div.left:hover {
+	background-image:url(../img/button/canvas_b_on.png);
+}
+
+#nav div.right {
+	background-image:url(../img/button/canvas_f.png);
+}
+
+#nav div.right:hover {
+	background-image:url(../img/button/canvas_f_on.png);
+}
+
+.tool-item {
+	width: 30px;
+	height: 30px;
+	float: left;
+	border: 1px solid #aaf;
+}
+
+.tool-item-selected {
+	border: 1px solid #f44;
+}
+
+.tool-item-hover {
+	border: 1px solid #444;
+}
+
+.choice-selected {
+	background-color: #4f4;
+}
+
+.block {
+	height: 50px;
+	width: 50px;
+	float: left;
+	border: 1px solid #000;
+	background-color: #eef;
+	margin: 1px;
+}
+
+/*
+	p-1 == p16, blank or erased
+	p: pictures
+	p0, horizonal line
+	p1, vertical line
+	...
+*/
+
+.p-1, .p16 {
+	background-image: none;
+}
+.p0 {
+	background-image: url(../img/0.png);
+}
+.p1 {
+	background-image: url(../img/1.png);
+}
+.p2 {
+	background-image: url(../img/2.png);
+}
+.p3 {
+	background-image: url(../img/3.png);
+}
+.p4 {
+	background-image: url(../img/4.png);
+}
+.p5 {
+	background-image: url(../img/5.png);
+}
+.p6 {
+	background-image: url(../img/6.png);
+}
+.p7 {
+	background-image: url(../img/7.png);
+}
+.p8 {
+	background-image: url(../img/8.png);
+}
+.p9 {
+	background-image: url(../img/9.png);
+}
+.p10 {
+	background-image: url(../img/10.png);
+}
+.p11 {
+	background-image: url(../img/11.png);
+}
+.p12 {
+	background-image: url(../img/12.png);
+}
+.p13 {
+	background-image: url(../img/13.png);
+}
+.p14 {
+	background-image: url(../img/14.png);
+}
+.p15 {
+	background-image: url(../img/15.png);
+}
+
+/*
+	i: icons
+	small size of p above
+*/
+
+.i0 {
+	background-image: url(../img/icon/0.png);
+}
+.i1 {
+	background-image: url(../img/icon/1.png);
+}
+.i2 {
+	background-image: url(../img/icon/2.png);
+}
+.i3 {
+	background-image: url(../img/icon/3.png);
+}
+.i4 {
+	background-image: url(../img/icon/4.png);
+}
+.i5 {
+	background-image: url(../img/icon/5.png);
+}
+.i6 {
+	background-image: url(../img/icon/6.png);
+}
+.i7 {
+	background-image: url(../img/icon/7.png);
+}
+.i8 {
+	background-image: url(../img/icon/8.png);
+}
+.i9 {
+	background-image: url(../img/icon/9.png);
+}
+.i10 {
+	background-image: url(../img/icon/10.png);
+}
+.i11 {
+	background-image: url(../img/icon/11.png);
+}
+.i12 {
+	background-image: url(../img/icon/12.png);
+}
+.i13 {
+	background-image: url(../img/icon/13.png);
+}
+.i14 {
+	background-image: url(../img/icon/14.png);
+}
+.i15 {
+	background-image: url(../img/icon/15.png);
+}
+.i16 {
+	background-image: url(../img/icon/16.png);
+}

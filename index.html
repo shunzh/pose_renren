@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style/index.css" rel="stylesheet" type="text/css" />
+<link href="style/basic.css" rel="stylesheet" type="text/css" />
+<title>Pose for Renren</title>
+<script type="text/javascript" src="script/renren.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7474556-18']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="background">
+<div id="poster"></div>
+<script type="text/javascript">
+  var uiOpts = {
+	  url : "http://graph.renren.com/oauth/authorize",
+	  display : "iframe",
+	  params : {"response_type":"token",
+	  	"client_id": "168846",
+		"scope": "photo_upload" },
+	  onSuccess: function(r){
+		top.location = "http://apps.renren.com/posemakeup/start.html";
+	  },
+	  onFailure: function(r){} 
+  };
+  Renren.ui(uiOpts);
+</script>
+</div>
+<script type="text/javascript" src="script/jquery.js"></script>
+<div id="preload">
+<img src="img/intro_bg.png" onload="javascript:imgReady()" />
+<img src="img/digits.png" onload="javascript:imgReady()" />
+<img src="img/pose_guide.png" onload="javascript:imgReady()" />
+<img src="img/pose_intro_guide.png" onload="javascript:imgReady()" />
+
+<img src="img/demo.png" onload="javascript:imgReady()" />
+
+<img src="img/gesture/0.png" onload="javascript:imgReady()" />
+<img src="img/gesture/1.png" onload="javascript:imgReady()" />
+<img src="img/gesture/2.png" onload="javascript:imgReady()" />
+<img src="img/gesture/3.png" onload="javascript:imgReady()" />
+<img src="img/gesture/4.png" onload="javascript:imgReady()" />
+<img src="img/gesture/5.png" onload="javascript:imgReady()" />
+<img src="img/gesture/6.png" onload="javascript:imgReady()" />
+<img src="img/gesture/7.png" onload="javascript:imgReady()" />
+<img src="img/gesture/8.png" onload="javascript:imgReady()" />
+<img src="img/gesture/9.png" onload="javascript:imgReady()" />
+<img src="img/gesture/10.png" onload="javascript:imgReady()" />
+<img src="img/gesture/11.png" onload="javascript:imgReady()" />
+<img src="img/gesture/12.png" onload="javascript:imgReady()" />
+<img src="img/gesture/13.png" onload="javascript:imgReady()" />
+<img src="img/gesture/14.png" onload="javascript:imgReady()" />
+<img src="img/gesture/15.png" onload="javascript:imgReady()" />
+<img src="img/gesture/16.png" onload="javascript:imgReady()" />
+
+<img src="img/icon/0.png" onload="javascript:imgReady()" />
+<img src="img/icon/1.png" onload="javascript:imgReady()" />
+<img src="img/icon/2.png" onload="javascript:imgReady()" />
+<img src="img/icon/3.png" onload="javascript:imgReady()" />
+<img src="img/icon/4.png" onload="javascript:imgReady()" />
+<img src="img/icon/5.png" onload="javascript:imgReady()" />
+<img src="img/icon/6.png" onload="javascript:imgReady()" />
+<img src="img/icon/7.png" onload="javascript:imgReady()" />
+<img src="img/icon/8.png" onload="javascript:imgReady()" />
+<img src="img/icon/9.png" onload="javascript:imgReady()" />
+<img src="img/icon/10.png" onload="javascript:imgReady()" />
+<img src="img/icon/11.png" onload="javascript:imgReady()" />
+<img src="img/icon/12.png" onload="javascript:imgReady()" />
+<img src="img/icon/13.png" onload="javascript:imgReady()" />
+<img src="img/icon/14.png" onload="javascript:imgReady()" />
+<img src="img/icon/15.png" onload="javascript:imgReady()" />
+<img src="img/icon/16.png" onload="javascript:imgReady()" />
+
+<img src="img/overlay/0.png" onload="javascript:imgReady()" />
+<img src="img/overlay/1.png" onload="javascript:imgReady()" />
+<img src="img/overlay/2.png" onload="javascript:imgReady()" />
+<img src="img/overlay/3.png" onload="javascript:imgReady()" />
+<img src="img/overlay/4.png" onload="javascript:imgReady()" />
+<img src="img/overlay/5.png" onload="javascript:imgReady()" />
+<img src="img/overlay/6.png" onload="javascript:imgReady()" />
+<img src="img/overlay/7.png" onload="javascript:imgReady()" />
+<img src="img/overlay/8.png" onload="javascript:imgReady()" />
+<img src="img/overlay/9.png" onload="javascript:imgReady()" />
+<img src="img/overlay/10.png" onload="javascript:imgReady()" />
+<img src="img/overlay/11.png" onload="javascript:imgReady()" />
+<img src="img/overlay/12.png" onload="javascript:imgReady()" />
+<img src="img/overlay/13.png" onload="javascript:imgReady()" />
+<img src="img/overlay/14.png" onload="javascript:imgReady()" />
+<img src="img/overlay/15.png" onload="javascript:imgReady()" />
+<img src="img/overlay/16.png" onload="javascript:imgReady()" />
+
+<img src="img/0.png" onload="javascript:imgReady()" />
+<img src="img/1.png" onload="javascript:imgReady()" />
+<img src="img/2.png" onload="javascript:imgReady()" />
+<img src="img/3.png" onload="javascript:imgReady()" />
+<img src="img/4.png" onload="javascript:imgReady()" />
+<img src="img/5.png" onload="javascript:imgReady()" />
+<img src="img/6.png" onload="javascript:imgReady()" />
+<img src="img/7.png" onload="javascript:imgReady()" />
+<img src="img/8.png" onload="javascript:imgReady()" />
+<img src="img/9.png" onload="javascript:imgReady()" />
+<img src="img/10.png" onload="javascript:imgReady()" />
+<img src="img/11.png" onload="javascript:imgReady()" />
+<img src="img/12.png" onload="javascript:imgReady()" />
+<img src="img/13.png" onload="javascript:imgReady()" />
+<img src="img/14.png" onload="javascript:imgReady()" />
+<img src="img/15.png" onload="javascript:imgReady()" />
+<img src="img/16.png" onload="javascript:imgReady()" />
+
+<img src="img/button/start_f_on.png" onload="javascript:imgReady()" />
+<img src="img/button/canvas_b_on.png" onload="javascript:imgReady()" />
+<img src="img/button/canvas_f_on.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_intro_b_on.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_intro_f_on.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_b_on.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_f_on.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_c_on.png" onload="javascript:imgReady()" />
+<img src="img/button/result_b_on.png" onload="javascript:imgReady()" />
+<img src="img/button/result_f_on.png" onload="javascript:imgReady()" />
+
+<img src="img/button/start_f.png" onload="javascript:imgReady()" />
+<img src="img/button/canvas_b.png" onload="javascript:imgReady()" />
+<img src="img/button/canvas_f.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_intro_b.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_intro_f.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_b.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_f.png" onload="javascript:imgReady()" />
+<img src="img/button/pose_c.png" onload="javascript:imgReady()" />
+<img src="img/button/result_b.png" onload="javascript:imgReady()" />
+<img src="img/button/result_f.png" onload="javascript:imgReady()" />
+</div>
+</body>
+</html>

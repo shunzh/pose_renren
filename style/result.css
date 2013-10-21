@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#result {
+	width: 700px;
+	height: 400px;
+}
+
+#msg {
+	width: 100%;
+	padding: 10px;
+}
+
+#nav div.left {
+	background-image:url(../img/button/result_b.png);
+}
+
+#nav div.left:hover {
+	background-image:url(../img/button/result_b_on.png);
+}
+
+#nav div.right {
+	background-image:url(../img/button/result_f.png);
+	display: none;
+}
+
+#nav div.right:hover {
+	background-image:url(../img/button/result_f_on.png);
+}

@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sample {
+	height: 270px;
+	width: 360px;
+	float: left;
+	background-image:url(../img/pose_guide.png);
+	background-repeat: no-repeat;
+}
+
+#camera {
+	height: 270px;
+	width: 360px;
+	float: right;
+	position: relative;
+}
+
+#overlay {
+	position: absolute;
+	top: 80px;
+	left: 420px;
+	z-index: 100;
+	width: 360px;
+	height: 270px;
+	display: none;
+}
+
+#camera_panel {
+	width: 100%;
+}
+
+#camera_configure {
+	float: right;
+	margin-top: 10px;
+}
+
+#timer {
+	height: 100px;
+	width: 300px;
+	margin-left: 250px;
+	margin-top: 30px;
+	float: left;
+}
+
+#timer h1 {
+	font-size: 3em;
+}
+
+#player {
+	float: left;
+}
+
+.nav-process, .nav-finish {
+	display: none;
+}
+
+#nav div.left {
+	background-image:url(../img/button/pose_b.png);
+}
+
+#nav div.left:hover {
+	background-image:url(../img/button/pose_b_on.png);
+}
+
+#nav div.right {
+	background-image:url(../img/button/pose_f.png);
+}
+
+#nav div.right:hover {
+	background-image:url(../img/button/pose_f_on.png);
+}
+
+#nav div.center {
+	background-image:url(../img/button/pose_c.png);
+}
+
+#nav div.center:hover {
+	background-image:url(../img/button/pose_c_on.png);
+}

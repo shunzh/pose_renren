@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<?php
+session_start();	// start the session
+header('P3P: CP=\"IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA\"');
+?>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="P3Pv1" href="/w3c/p3p.xml"></link>
+<link href="style/basic.css" rel="stylesheet" type="text/css" />
+<link href="style/pose.css" rel="stylesheet" type="text/css" />
+<title>Pose</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7474556-18']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="header">
+	<div id="title"></div>
+	<div id="ads">
+</div>
+</div>
+<div id="container">
+<div id="sample"></div>
+<div id="camera">
+</div>
+<div id="overlay"></div>
+<div id="player"></div>
+<div id="camera_panel">
+	<span id="camera_configure">
+	<a href="javascript:void(webcam.configure('camera'))">摄像头设置</a>
+	</span>
+</div>
+<div id="timer"></div>
+<div id="nav" class="nav-pre">
+	<a href="javascript:startClicked()"><div class="center"></div></a>
+</div>
+<div id="nav" class="nav-finish">
+	<a href="javascript:leftClicked();"><div class="left"></div></a>
+	<a href="javascript:rightClicked();"><div class="right"></div></a>
+</div>
+<div id="nav" class="nav-process">
+	<a href="javascript:leftClicked();"><div class="left"></div></a>
+</div>
+</div><!-- containter -->
+
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="webcam/webcam.js"></script>
+<script type="text/javascript" src="script/shoot.js"></script>
+</body>
+</html>
